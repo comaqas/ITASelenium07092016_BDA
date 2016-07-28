@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e57a33-b492-4306-a54f-cad870247aea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/main/java/core/TestBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/main/java/pages/PageDynamic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/main/java/pages/PageFlow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/main/java/pages/PageSimpleFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/main/java/pages/PageStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/test/java/test/DynamicPOTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/test/java/test/FactoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/test/java/test/FlowTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HM_2016.07.15/src/test/java/test/StaticPOTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MailRuTest.class" afterPath="$PROJECT_DIR$/target/test-classes/MailRuTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HM_2016.07.08/OnlinerSimpleTestWithPrice/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HM_2016.07.08/OnlinerSimpleTestWithPrice/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MailRuTest.java" afterPath="$PROJECT_DIR$/src/test/java/MailRuTest.java" />
     </list>
     <ignored path="HM_2016.07.11.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +50,8 @@
       <file leaf-file-name="MailRuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MailRuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="1034">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,9 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,12 +184,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="J:/MyCodePlace/Intellij IDEA/ClassJava/pageObject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="TestNG.MailRuTest.MailTestMethod">
     <configuration default="false" name="MailRuTest.MailTestMethod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -515,34 +527,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.23 at 16h 48m 07s.xml">
+    <history-entry file="MailRuTest - 2016.07.28 at 12h 19m 03s.xml">
+      <configuration name="MailRuTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MailRuTest - 2016.07.28 at 12h 20m 02s.xml">
+      <configuration name="MailRuTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MailRuTest_MailTestMethod - 2016.07.28 at 12h 03m 25s.xml">
       <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.23 at 16h 48m 25s.xml">
+    <history-entry file="MailRuTest_MailTestMethod - 2016.07.28 at 12h 03m 57s.xml">
       <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.23 at 16h 48m 43s.xml">
+    <history-entry file="MailRuTest_MailTestMethod - 2016.07.28 at 12h 04m 21s.xml">
       <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.23 at 16h 49m 13s.xml">
+    <history-entry file="MailRuTest_MailTestMethod - 2016.07.28 at 12h 06m 31s.xml">
       <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.25 at 09h 28m 16s.xml">
+    <history-entry file="MailRuTest_MailTestMethod - 2016.07.28 at 12h 07m 23s.xml">
       <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.25 at 09h 29m 11s.xml">
+    <history-entry file="MailRuTest_MailTestMethod - 2016.07.28 at 12h 25m 58s.xml">
       <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.25 at 09h 33m 48s.xml">
+    <history-entry file="MailRuTest_MailTestMethod - 2016.07.28 at 12h 26m 27s.xml">
       <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.25 at 09h 34m 09s.xml">
-      <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.25 at 09h 34m 32s.xml">
-      <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MailRuTest_MailTestMethod - 2016.07.25 at 09h 35m 56s.xml">
+    <history-entry file="MailRuTest_MailTestMethod - 2016.07.28 at 12h 49m 07s.xml">
       <configuration name="MailRuTest.MailTestMethod" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -552,13 +564,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -569,6 +580,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -588,7 +600,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -596,6 +610,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MailRuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MailRuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MailRuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MailRuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MailRuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MailRuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -660,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MailRuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="1034">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
