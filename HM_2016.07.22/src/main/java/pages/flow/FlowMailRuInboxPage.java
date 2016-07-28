@@ -8,11 +8,9 @@ import org.testng.Assert;
 import java.util.List;
 
 
-public class PageFlow {
+public class FlowMailRuInboxPage {
 
-    private final By PLACEHOLDERLOGIN = By.xpath("//input[@id='mailbox__login']");
-    private final By PLACEHOLDERPASSWORD = By.xpath("//input[@id='mailbox__password']");
-    private final By BUTTONLOGIN = By.xpath("//input[@id='mailbox__auth__button']");
+
     private final By INBOXMAILMENU = By.xpath("//span[text()='Входящие']");
     private final By TURNPAGEBUTTON = By.xpath("//div[@data-name='next']");
     private final By LETTERCOUNT = By.xpath("//div[@data-bem='b-datalist__item']");
@@ -20,33 +18,18 @@ public class PageFlow {
 
     private WebDriver driver;
 
-    public PageFlow(WebDriver driver) {
+    public FlowMailRuInboxPage(WebDriver driver) {
         this.driver = driver;
+
     }
 
-    public PageFlow InputLoginText(String LoginText) {
-        WebElement placeholderlogin = driver.findElement(PLACEHOLDERLOGIN);
-        placeholderlogin.sendKeys(LoginText);
-        return this;
-    }
 
-    public PageFlow InputPasswordText(String PasswordText) {
-
-        WebElement placeholderpassword = driver.findElement(PLACEHOLDERPASSWORD);
-        placeholderpassword.sendKeys(PasswordText);
-        return this;
-    }
-    public PageFlow ClickButtonLogIn() {
-        WebElement buttonLogIn = driver.findElement(BUTTONLOGIN);
-        buttonLogIn.click();
-        return this;
-    }
-    public PageFlow SelectInboxMailMenu(){
+    public FlowMailRuInboxPage SelectInboxMailMenu(){
         WebElement InboxMail = driver.findElement(INBOXMAILMENU);
         InboxMail.click();
         return this;
     }
-    public PageFlow MailCalculator(){
+    public FlowMailRuInboxPage MailCalculator(){
         int page = 0;
         while(true){
             List<WebElement> LetterCountCalc = driver.findElements(LETTERCOUNT);
@@ -62,9 +45,5 @@ public class PageFlow {
         return this;
     }
 
-    public PageFlow HelperAssert (String AssertText){
-        Assert.assertEquals(driver.getTitle(), AssertText);
-        return this;
-    }
 
 }

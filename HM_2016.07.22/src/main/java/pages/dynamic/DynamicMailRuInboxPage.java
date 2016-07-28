@@ -1,4 +1,4 @@
-package pages;
+package pages.dynamic;
 
 
 import org.openqa.selenium.By;
@@ -8,29 +8,18 @@ import org.testng.Assert;
 
 import java.util.List;
 
-public class PageDynamic {
-    private final By PLACEHOLDERLOGIN = By.xpath("//input[@id='mailbox__login']");
-    private final By PLACEHOLDERPASSWORD = By.xpath("//input[@id='mailbox__password']");
-    private final By BUTTONLOGIN = By.xpath("//input[@id='mailbox__auth__button']");
+public class DynamicMailRuInboxPage {
+
     private final By INBOXMAILMENU = By.xpath("//span[text()='Входящие']");
     private final By TURNPAGEBUTTON = By.xpath("//div[@data-name='next']");
     private final By LETTERCOUNT = By.xpath("//div[@data-bem='b-datalist__item']");
 
     private WebDriver driver;
 
-    public PageDynamic(WebDriver driver) {
+    public DynamicMailRuInboxPage(WebDriver driver) {
         this.driver = driver;
     }
-    public void LogIn(String LoginText, String PasswordText){
-        WebElement placeholderlogin = driver.findElement(PLACEHOLDERLOGIN);
-        placeholderlogin.sendKeys(LoginText);
-
-        WebElement placeholderpassword = driver.findElement(PLACEHOLDERPASSWORD);
-        placeholderpassword.sendKeys(PasswordText);
-
-        WebElement buttonLogIn = driver.findElement(BUTTONLOGIN);
-        buttonLogIn.click();
-
+    public void SelectInboxMenu(){
         WebElement InboxMail = driver.findElement(INBOXMAILMENU);
         InboxMail.click();
 
@@ -49,8 +38,5 @@ public class PageDynamic {
 
         }
     }
-    public void HelperAssert (String AssertText){
-        Assert.assertEquals(driver.getTitle(), AssertText);
 
-    }
 }

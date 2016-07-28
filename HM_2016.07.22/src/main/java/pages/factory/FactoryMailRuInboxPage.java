@@ -4,21 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
+
 
 import java.util.List;
 
 
-public class PageSimpleFactory {
+public class FactoryMailRuInboxPage {
 
-    @FindBy(xpath = "//input[@id='mailbox__login']")
-    private WebElement PLACEHOLDERLOGIN;
 
-    @FindBy (xpath = "//input[@id='mailbox__password']")
-    private WebElement PLACEHOLDERPASSWORD;
-
-    @FindBy (xpath = "//input[@id='mailbox__auth__button']")
-    private WebElement BUTTONLOGIN;
 
     @FindBy (xpath = "//span[text()='Входящие']")
     private WebElement INBOXMAILMENU;
@@ -27,14 +20,7 @@ public class PageSimpleFactory {
     private WebElement TURNPAGEBUTTON;
 
 
-    public void LogIn(String LoginText, String PasswordText) {
-
-        PLACEHOLDERLOGIN.sendKeys(LoginText);
-
-        PLACEHOLDERPASSWORD.sendKeys(PasswordText);
-
-        BUTTONLOGIN.click();
-
+    public void SelectInboxMenu() {
         INBOXMAILMENU.click();
 
     }
@@ -52,8 +38,5 @@ public class PageSimpleFactory {
 
         }
     }
-    public void HelperAssert (WebDriver driver, String AssertText){
-        Assert.assertEquals(driver.getTitle(), AssertText);
 
-    }
 }

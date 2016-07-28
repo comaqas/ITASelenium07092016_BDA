@@ -1,7 +1,11 @@
 package core;
 
-/**
- * Created by HP on 28.07.2016.
- */
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
 public class HelperAssertStatic {
+    static public void CheckTitle (WebDriver driver, String AssertText) {
+        Assert.assertEquals(driver.getTitle(), AssertText);
+    }
 }

@@ -4,13 +4,13 @@ package pages.statics;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
+
 
 import java.util.List;
 
 
 
-public class PageStatic {
+public class StaticMailRuInboxPage {
 
     private static final By INBOXMAILMENU = By.xpath("//span[text()='Входящие']");
     private static final By TURNPAGEBUTTON = By.xpath("//div[@data-name='next']");
@@ -36,11 +36,6 @@ public class PageStatic {
 
         }
     }
-    public static void HelperAssert (WebDriver driver, String AssertText){
-        Assert.assertEquals(driver.getTitle(), AssertText);
-
-    }
-
 
 }
 
