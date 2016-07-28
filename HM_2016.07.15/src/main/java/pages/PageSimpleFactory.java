@@ -9,7 +9,7 @@ import org.testng.Assert;
 import java.util.List;
 
 
-public class PageFactory {
+public class PageSimpleFactory {
 
     @FindBy(xpath = "//input[@id='mailbox__login']")
     private WebElement PLACEHOLDERLOGIN;

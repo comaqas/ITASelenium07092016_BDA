@@ -1,4 +1,4 @@
-package StaticTest;
+package test;
 
 import core.TestBase;
 import org.testng.annotations.Test;
@@ -11,9 +11,21 @@ public class FlowTest extends TestBase {
     public void MailRUTest(){
         PageFlow page = new PageFlow(driver);
 
-        page.
-                HelperAssert("fgfg")
-                
+        String LoginText = "strong.zubovich@bk.ru";
+        String PasswordText = "ZXCvbn123!";
+        String AssertTitleMainPage = "Mail.Ru: почта, поиск в интернете, новости, игры";
+        String AssertTitleInbox = "Входящие - Почта Mail.Ru";
+
+        page
+                .HelperAssert(AssertTitleMainPage)
+                .InputLoginText(LoginText)
+                .InputPasswordText(PasswordText)
+                .ClickButtonLogIn()
+                .SelectInboxMailMenu()
+                .HelperAssert(AssertTitleInbox)
+                .MailCalculator();
+
+
 
 
 

@@ -1,4 +1,4 @@
-package StaticTest;
+package test;
 
 
 import core.TestBase;
