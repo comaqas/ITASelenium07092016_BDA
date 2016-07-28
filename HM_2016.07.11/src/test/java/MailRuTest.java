@@ -13,6 +13,7 @@ public class MailRuTest {
 
     @Test
     public void MailTestMethod(){
+        
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -46,7 +47,7 @@ public class MailRuTest {
                 driver.findElement(By.xpath("//div[@data-name='next']")).click();
             } else {
                 break;
-                            }
+            }
         }
     }
 }
